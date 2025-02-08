@@ -15,6 +15,7 @@ body
     box-sizing: border-box;
     background-color: #f8f7ea;
     overflow: hidden;
+    font-family: 'Montserrat';
 }
 
 /* -- */
@@ -34,7 +35,6 @@ body
 .folder-container a
 {
     text-decoration: none;
-    font-family: 'Montserrat';
     font-size: .8rem;
     margin-top: .5em;
     color: #5d4c15;
@@ -76,4 +76,32 @@ body
 {
     background-color: #f1ebe0;
     padding: 1em;
+}
+
+/* -- */
+
+.page-header 
+{
+    padding: 1em;
+    text-align: center;
+}
+
+.page-header h1 
+{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.page-header p 
+{
+    font-size: .8rem;
+    color: #34220a;
+}
+
+.view-box 
+{
+    height: 50dvh;
+    margin: 1em 2em;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
 }
