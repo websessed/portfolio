@@ -72,3 +72,8 @@ body
     justify-content: center;
     flex-direction: column;
 }
+.about-me img 
+{
+    background-color: #f1ebe0;
+    padding: 1em;
+}
